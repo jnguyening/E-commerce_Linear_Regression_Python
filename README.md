@@ -2,8 +2,8 @@
 
 ##  Overview
 
-This project implements a Multiple Linear Regression model to analyze and predict customer spending for an e-commerce clothing store. The business goal is to help the company decide whether to focus their efforts on their mobile app experience or their website by quantifying which platform (and which customer behaviors) most directly correlate with high annual revenue.
+This project implements a Multiple Linear Regression model to assist an e-commerce clothing company in deciding whether to focus their development efforts on their mobile app or their website. By analyzing customer behavior data—including session lengths, time spent on the app vs. website, and length of membership—this analysis predicts the Yearly Amount Spent by each customer.
 
-By processing a dataset of customer profiles—including session lengths, membership duration, and time spent on various platforms—the project demonstrates a full machine learning lifecycle. From initial data exploration and correlation mapping to model training and statistical validation, this analysis provides a data-driven roadmap for optimizing marketing spend and customer retention strategies.
+The repository demonstrates a complete data science workflow: from initial Exploratory Data Analysis (EDA) to identifying key revenue drivers, building a predictive model using Scikit-Learn, and performing a deep-dive statistical audit to ensure the model’s reliability. The final insights provide a data-backed recommendation on which digital platform yields the highest return on investment (ROI).
 
 Dataset: [Linear Regression E-commerce Dataset](https://www.kaggle.com/datasets/kolawale/focusing-on-mobile-app-or-website/data)
